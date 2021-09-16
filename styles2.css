@@ -8,7 +8,8 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;    
+  align-items: center; 
+  height: 40px;   
 }
 
 h1 {
@@ -16,9 +17,18 @@ h1 {
   margin-left: 15px;
 }
 
+h1:hover{
+  font-size: 22px;
+}
+
+
 .threelinemenu {
   height: 30px;
   margin-right:15px ;
+}
+
+.threelinemenu:hover{
+  height: 34px;
 }
 
 /*
@@ -28,7 +38,7 @@ division between top bar and the rest
 .mid-page {
   background-image: url("images/Ilustration-mobile.png");
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
   align-items: center;
   flex:1;
   justify-content: space-between;
@@ -76,10 +86,15 @@ footer style (links to social media)
 .bottombar {
   display: flex;
   margin: 58px 0px;
+  height: 40px;
 }
 
 .bottombar > * {
   margin: 10px;
+}
+
+a :hover {
+border: solid 4px rgb(97, 102, 97);
 }
 
 /*
