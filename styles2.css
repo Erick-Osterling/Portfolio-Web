@@ -1,0 +1,86 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+    align-items: center;
+    border: solid 4px red;
+}
+
+h1 {
+    width: 90px;
+    height: 28px;
+    margin-left: 15px;
+}
+
+h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+}
+
+.firstinfo {
+font-size: 30px;
+color: #172B4D;
+border: violet solid 5px;
+}
+
+.secondinfo {
+    font-size: 30px;
+    color: teal; 
+    border: purple solid 5px;
+}
+
+.threelinemenu {
+    height: 40px;
+    margin-right:15px ;
+}
+
+.mid-page {
+    background-image: url("images/Ilustration-mobile.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+    width: 1000px;
+    border: solid 3px rebeccapurple;
+  }
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 327px;
+  height: 192px; 
+  border: solid 4px pink;
+  align-items: center;
+   }
+
+   h3 {
+       border: solid 5px rgb(0, 13, 128);
+       
+       font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        margin: 30px 80px;
+   }
+
+   .bottombar {
+    display: flex;
+    border: solid 4px green;
+}
+
+.bottombar > * {
+    margin: 20px;
+}

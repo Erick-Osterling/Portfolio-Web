@@ -1,0 +1,41 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    width: 375px;
+    align-items: center;
+    border: solid 4px red;
+}
+
+.threelinemenu {
+    height: 24px;
+}
+
+.mid-page {
+    background-image: url("images/Ilustration-mobile.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+    width: 1000px;
+    border: solid 3px rebeccapurple;
+  }
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  height: 192px; 
+ }
+
+
+.bottombar {
+    display: flex;
+
+}
