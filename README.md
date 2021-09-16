@@ -26,12 +26,6 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@ErickOsterling](https://twitter.com/ErickOsterling)
 - LinkedIn: [@Erick Osterling Castillo](https://www.linkedin.com/in/erick-osterling-castillo-49b569104/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
