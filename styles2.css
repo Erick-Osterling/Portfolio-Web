@@ -2,45 +2,22 @@
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 100px;
-}
-
+    height: 100vh;
+    justify-content:flex-start;
+    }
 .topbar {
     display: flex;
     justify-content: space-between;
-    width: 100%
-    align-items: center;
-    border: solid 4px red;
+    align-items: center;    
 }
 
 h1 {
-    width: 90px;
-    height: 28px;
+    font-size: 20px;
     margin-left: 15px;
 }
 
-h2 {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  text-align: center;
-}
-
-.firstinfo {
-font-size: 30px;
-color: #172B4D;
-border: violet solid 5px;
-}
-
-.secondinfo {
-    font-size: 30px;
-    color: teal; 
-    border: purple solid 5px;
-}
-
 .threelinemenu {
-    height: 40px;
+    height: 30px;
     margin-right:15px ;
 }
 
@@ -49,38 +26,63 @@ border: violet solid 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 1000px;
-    width: 1000px;
-    border: solid 3px rebeccapurple;
+    flex:1;
+    justify-content: space-between;
   }
 
 .greeting {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 327px;
-  height: 192px; 
-  border: solid 4px pink;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+     }
+
+h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  margin: 0px 40px 0px 40px;
+  }
+
+.firstinfo {
+color: #172B4D;
+}
+
+.secondinfo {
+    color: teal; 
    }
 
    h3 {
-       border: solid 5px rgb(0, 13, 128);
-       
-       font-family: Inter;
+        font-family: Inter;
         font-style: normal;
         font-weight: normal;
         font-size: 20px;
         line-height: 28px;
         text-align: center;
-        margin: 30px 80px;
+        margin: 58px 0px;
+        
    }
 
    .bottombar {
     display: flex;
-    border: solid 4px green;
-}
+    margin: 58px 0px;
+   }
 
 .bottombar > * {
-    margin: 20px;
+    margin: 10px;
+}
+
+@media (max-width: 350px) {
+    .mid-page {
+        background-size: contain;
+    }
+}
+
+@media (min-width: 350px) {
+    .mid-page {
+        background-size: cover;
+    }
 }
