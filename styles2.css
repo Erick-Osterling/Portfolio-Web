@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.logo {
+  font-size: 22px;
+  margin-left: 15px;
+  color: #172b4d;
+  text-decoration: none;
+}
+
+.logo:hover {
+  font-size: 28px;
+}
+
+nav {
+  height: 30px;
+  margin-right: 15px;
+}
+
+nav:hover {
+  height: 34px;
+}
+
+/*
+division between top bar and the rest
+*/
+
+section {
+  background-image: url("images/Ilustration-mobile.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+h1 {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+
+h2 {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.firstinfo {
+  color: #172b4d;
+}
+
+.secondinfo {
+  color: teal;
+}
+
+p {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  margin: 5px 12px;
+}
+
+/*
+footer style (links to social media)
+*/
+
+.bottombar {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  height: 40px;
+}
+
+.bottombar > * {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a :hover {
+  border: solid 4px rgb(97, 102, 97);
+}
+
+/*
+This media query is so the background image stretches or shrinks for any screen cellphone size.
+*/
+
+@media (max-width: 350px) {
+  .mid-page {
+    background-size: contain;
+  }
+}
+
+@media (min-width: 350px) {
+  .mid-page {
+    background-size: cover;
+  }
+}
