@@ -12,7 +12,6 @@ body {
   align-items: center;
   height: 40px;
   margin-top: 5px;
-  border: solid 3px green;
 }
 
 .logo {
@@ -43,10 +42,9 @@ division between top bar and the rest
   background-image: url("images/Ilustration-mobile.png");
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  height: calc(100vh - 40px);
   align-items: center;
   justify-content: space-between;
-  border: solid 2px red;
 }
 
 .greeting {
@@ -55,7 +53,6 @@ division between top bar and the rest
   justify-content: flex-start;
   align-items: center;
   margin-top: 50px;
-  border: solid 2px purple;
 }
 
 h1, h2 {
@@ -68,7 +65,6 @@ h1, h2 {
   margin-right: 15px;
   margin-top: 20px;;
   color:#172b4d;
-  border: solid 2px pink;
   ;
 }
 
@@ -84,7 +80,6 @@ p {
   line-height: 28px;
   text-align: center;
   margin: 25px 12px;
-  border: solid 3px  turquoise;
   margin-bottom: 0px;
 }
 
@@ -99,15 +94,10 @@ footer style (links to social media)
   height: 40px;
   justify-content: space-between;
   align-items: center;
-  border: solid 3px orange;
 }
 
 .bottombar > * {
-  margin-right: 30px;
-}
-
-li {
-  list-style-type: none;
+  margin: 10px;
 }
 
 a :hover {
@@ -143,21 +133,24 @@ This media query is so the background image stretches or shrinks for any screen 
   width: 40px;
   height: 40px;
   border-radius: 32px;
-  padding: 8px;
   margin-top: 64px;
   margin-bottom: 22px;
 }
 
 .img-arrow {
   height: 18px;
-  
 }
 
+.works-text {
+margin: 1px 24px;
+
+
+}
 .indicator {
   width: 40px;
   height: 4px;
   border-radius: 24px;
-  background-color: #36b37e;
+  margin-top: 24px;
 }
 
 /*
@@ -167,17 +160,89 @@ Template for works
 
 .works-template {
   display: flex;
-  display: block;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: 62px;
+  display: flex;
   height: 474px;
   width: 327px;
   border-radius: 8px;
-  border: solid 1px blue;
-}
-
-.work-image {
-
+  background-color: #ebf0ee;
+  align-self: center;
 }
 
 .work-data {
-
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 327px;
+height: 222px;
+border-radius: 8px;
+background-color: #ffffff;
+align-self: center;
 }
+
+.work-title {
+  width: 295px;
+  height: 57px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3a4a42;
+  text-align: center;
+}
+
+/*
+Tags area
+*/
+
+.tag-holder {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 305px;
+height: 32px;
+align-content: center;
+margin-top: 16px;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  margin: 4px;
+  font-size: 12px;
+  background-color: #ebF0ee;
+  padding:1px 8px;
+  border-radius: 4px;
+  text-align: center;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  color: #3a4a42;
+}
+
+.btn-more-project {
+  background-color: #36B37F;
+  width: 122px;
+  height: 48px;
+  border-radius: 4px;
+  padding: 12px;
+  margin-top: 29px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  etter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+
+
+
+  
+  
+  
