@@ -79,8 +79,7 @@ p {
   font-size: 18px;
   line-height: 28px;
   text-align: center;
-  margin: 25px 12px;
-  margin-bottom: 0px;
+  margin: 25px 20px;
 }
 
 /*
@@ -151,6 +150,7 @@ margin: 1px 24px;
   height: 4px;
   border-radius: 24px;
   margin-top: 24px;
+  margin-bottom: 62px;
 }
 
 /*
@@ -162,18 +162,19 @@ Template for works
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-top: 62px;
   display: flex;
   height: 474px;
   width: 327px;
   border-radius: 8px;
   background-color: #ebf0ee;
   align-self: center;
+  border: 1px solid #d0d9d4;
 }
 
 .work-data {
 display: flex;
 flex-direction: column;
+justify-content: space-between;
 align-items: center;
 width: 327px;
 height: 222px;
@@ -192,6 +193,7 @@ align-self: center;
   line-height: 32px;
   color: #3a4a42;
   text-align: center;
+  margin-top: 24px;
 }
 
 /*
@@ -232,13 +234,52 @@ margin-top: 16px;
   border-radius: 4px;
   padding: 12px;
   margin-top: 29px;
+  margin-bottom: 24px ;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  etter-spacing: 0.03em;
   color: #ffffff;
 }
+
+/*
+Grid container
+*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  padding: 30px;
+  justify-content: center;
+}
+
+.work1 {
+  grid-row: 1;
+}
+
+.work2 {
+  grid-row: 2;
+}
+
+.work3 {
+  grid-row: 3;
+}
+
+.work4 {
+  grid-row: 4;
+}
+
+.work5 {
+  grid-row: 5;
+}
+
+.work6 {
+  grid-row: 6;
+}
+
+
+
 
 
 
