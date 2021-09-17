@@ -110,6 +110,10 @@ footer style (links to social media)
   margin-right: 10px;
 }
 
+li {
+  list-style-type: none;
+}
+
 a :hover {
   border: solid 4px rgb(97, 102, 97);
 }
