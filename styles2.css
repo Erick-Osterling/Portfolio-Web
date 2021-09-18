@@ -55,7 +55,7 @@ division between top bar and the rest
   margin-top: 50px;
 }
 
-h1, h2 {
+.firstinfo, .secondinfo {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -162,7 +162,6 @@ Template for works
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  display: flex;
   height: 474px;
   width: 327px;
   border-radius: 8px;
@@ -243,7 +242,7 @@ margin-top: 16px;
 }
 
 /*
-Grid container
+Grid container with works templates
 */
 
 .grid-container {
@@ -278,12 +277,191 @@ Grid container
   grid-row: 6;
 }
 
+/*
+About me
+*/
+
+.aboutme-container {
+  display: flex;
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+   
+.aboutme-h1 {
+  width: 320px;
+  height: 48px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+}
+   
+.aboutme-p {
+  margin-top: 24px;
+  width: 351px;
+  height: 189px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  
+}
+
+.aboutme-button {
+  background-color: #36B37F;
+  width: 159px;
+  height: 48px;
+  border-radius: 4px;
+  padding: 12px;
+  margin-top: 29px;
+  margin-bottom: 58px ;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+/*
+About me templates
+*/
+
+.about-template {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #EBF0EE;
+  border: 1px solid #C1C7D0;
+  border-radius: 8px;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  width: 327px;
+  
+}
+
+.about-img {
+  width: 150px;
+  height: 150px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
 
 
+.hability {
+  width: 337px;
+  height: 32px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #344563;
+}
 
+.detail-container {
+  display: flex;
+  margin: 20px 30px 1px 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 120px;
+  width: 327px;
+  align-content: flex-start; 
+}
 
+.details {
+  display: flex;
+  width: 89px;
+  height: 40px;
+  margin: 5px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 1px;
+}
 
+/*
+Grid container with about me templates
+*/
 
+.about1 {
+  grid-row: 1;
+}
+
+.about2 {
+  grid-row: 2;
+}
+
+.about3 {
+  grid-row: 3;
+}
+
+/*
+Button interactions
+*/
+
+.btn-more-project:hover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 91px;
+  background: #36B37F;
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
+}
+
+.btn-more-project:enabled {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 91px;
+  height: 48px;
+  background: #36B37F;
+  border-radius: 4px;
+}
+
+.aboutme-button:hover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 91px;
+  background: #36B37F;
+  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
+}
+
+.aboutme-button:enabled {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 91px;
+  height: 48px;
+  background: #36b37f;
+  border-radius: 4px;
+}
   
   
   
