@@ -55,7 +55,8 @@ division between top bar and the rest
   margin-top: 50px;
 }
 
-.firstinfo, .secondinfo {
+.firstinfo,
+.secondinfo {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -175,7 +176,7 @@ Template for works
   width: 327px;
   height: 222px;
   border-radius: 8px;
-  background-color: #ffffff;
+  background-color: #fff;
   align-self: center;
 }
 
