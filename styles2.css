@@ -39,12 +39,15 @@ division between top bar and the rest
 */
 
 .port-front {
-  background-image: url("images/Ilustration-mobile.png");
   display: flex;
   flex-direction: column;
+  background-position: center;
+  background-size: 100%;
   height: calc(100vh - 40px);
   align-items: center;
   justify-content: space-between;
+  background-image: url("images/Ilustration-mobile.png");
+  background-repeat: no-repeat;
 }
 
 .greeting {
@@ -59,28 +62,33 @@ division between top bar and the rest
 .secondinfo {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   text-align: center;
   font-size: 40px;
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 20px;
   color: #172b4d;
+  width: 327px;
 }
 
 .secondinfo {
   color: #36b37e;
 }
 
-p {
+.paragraph {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 28px;
   text-align: center;
   margin: 25px 20px;
+  width: 327px;
+  height: 164px;
 }
+
+
 
 /*
 footer style (links to social media)
@@ -104,20 +112,8 @@ a :hover {
 }
 
 /*
-This media query is so the background image stretches or shrinks for any screen cellphone size.
+Works area introduction
 */
-
-@media (max-width: 350px) {
-  .mid-page {
-    background-size: contain;
-  }
-}
-
-@media (min-width: 350px) {
-  .mid-page {
-    background-size: cover;
-  }
-}
 
 .intro-works {
   display: flex;
@@ -141,15 +137,23 @@ This media query is so the background image stretches or shrinks for any screen 
 }
 
 .works-text {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
   margin: 1px 24px;
+  color: #172b4d;
+  text-align: center;
 }
 
 .indicator {
-  width: 40px;
+  width: 48px;
   height: 4px;
   border-radius: 24px;
   margin-top: 24px;
-  margin-bottom: 62px;
+  margin-bottom: 24px;
+  background: #36b37e;
 }
 
 /*
@@ -281,22 +285,28 @@ About me
 
 .aboutme-container {
   display: flex;
-  margin-top: 45px;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  background-image: url("images/illustration 1- about me-mobile.png"),
+  url("images/illustration- about me- mobile.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, bottom -10px left;
+  margin-bottom: 59px;
 }
 
-.aboutme-h1 {
+.aboutme-h2 {
   width: 320px;
   height: 48px;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
+  margin-top: 45px;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
   align-items: center;
+  color: #172b4d;
 }
 
 .aboutme-p {
@@ -308,6 +318,7 @@ About me
   font-weight: normal;
   font-size: 20px;
   line-height: 32px;
+  text-align: center;
 }
 
 .aboutme-button {
@@ -317,7 +328,6 @@ About me
   border-radius: 4px;
   padding: 12px;
   margin-top: 29px;
-  margin-bottom: 58px;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -412,45 +422,27 @@ Button interactions
 */
 
 .btn-more-project:hover {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 12px;
-  width: 91px;
   background: #36b37f;
   box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
 }
 
 .btn-more-project:enabled {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 12px;
-  width: 91px;
-  height: 48px;
   background: #36b37f;
   border-radius: 4px;
 }
 
 .aboutme-button:hover {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 12px;
-  width: 91px;
   background: #36b37f;
   box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
 }
 
 .aboutme-button:enabled {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   padding: 12px;
-  width: 91px;
-  height: 48px;
   background: #36b37f;
   border-radius: 4px;
 }
