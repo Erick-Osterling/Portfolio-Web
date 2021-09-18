@@ -12,6 +12,10 @@ This is the mobile version. It is responsible with use of flex and one media que
 
 - Html & Css
 
+## Live Demo
+
+[Live Demo Link](https://erick-osterling.github.io/Portfolio-Web/)
+
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites: None
