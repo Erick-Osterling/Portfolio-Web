@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html,
 body,
 div,
@@ -17,7 +12,7 @@ a,
 img,
 ul,
 li,
-embed, 
+embed,
 footer,
 header,
 menu,
@@ -28,7 +23,6 @@ section {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
@@ -38,7 +32,7 @@ article,
 aside,
 details,
 figcaption,
-figure, 
+figure,
 footer,
 header,
 hgroup,
@@ -56,4 +50,3 @@ ol,
 ul {
   list-style: none;
 }
-
