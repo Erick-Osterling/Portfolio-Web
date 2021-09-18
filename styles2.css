@@ -63,9 +63,8 @@ division between top bar and the rest
   font-size: 40px;
   margin-left: 15px;
   margin-right: 15px;
-  margin-top: 20px;;
-  color:#172b4d;
-  ;
+  margin-top: 20px;
+  color: #172b4d;
 }
 
 .secondinfo {
@@ -141,10 +140,9 @@ This media query is so the background image stretches or shrinks for any screen 
 }
 
 .works-text {
-margin: 1px 24px;
-
-
+  margin: 1px 24px;
 }
+
 .indicator {
   width: 40px;
   height: 4px;
@@ -156,7 +154,6 @@ margin: 1px 24px;
 /*
 Template for works
 */
-
 
 .works-template {
   display: flex;
@@ -171,21 +168,21 @@ Template for works
 }
 
 .work-data {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
-width: 327px;
-height: 222px;
-border-radius: 8px;
-background-color: #ffffff;
-align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 327px;
+  height: 222px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  align-self: center;
 }
 
 .work-title {
   width: 295px;
   height: 57px;
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -200,13 +197,13 @@ Tags area
 */
 
 .tag-holder {
-display: flex;
-justify-content: center;
-align-items: center;
-width: 305px;
-height: 32px;
-align-content: center;
-margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 305px;
+  height: 32px;
+  align-content: center;
+  margin-top: 16px;
 }
 
 .tags {
@@ -215,8 +212,8 @@ margin-top: 16px;
   height: 32px;
   margin: 4px;
   font-size: 12px;
-  background-color: #ebF0ee;
-  padding:1px 8px;
+  background-color: #ebf0ee;
+  padding: 1px 8px;
   border-radius: 4px;
   text-align: center;
   font-family: Inter, Arial, Helvetica, sans-serif;
@@ -227,18 +224,18 @@ margin-top: 16px;
 }
 
 .btn-more-project {
-  background-color: #36B37F;
+  background-color: #36b37f;
   width: 122px;
   height: 48px;
   border-radius: 4px;
   padding: 12px;
   margin-top: 29px;
-  margin-bottom: 24px ;
+  margin-bottom: 24px;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  color: #ffffff;
+  color: #fff;
 }
 
 /*
@@ -284,12 +281,11 @@ About me
 .aboutme-container {
   display: flex;
   margin-top: 45px;
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-   
+
 .aboutme-h1 {
   width: 320px;
   height: 48px;
@@ -300,9 +296,8 @@ About me
   line-height: 52px;
   text-align: center;
   align-items: center;
-  text-align: center;
 }
-   
+
 .aboutme-p {
   margin-top: 24px;
   width: 351px;
@@ -312,23 +307,22 @@ About me
   font-weight: normal;
   font-size: 20px;
   line-height: 32px;
-  
 }
 
 .aboutme-button {
-  background-color: #36B37F;
+  background-color: #36b37f;
   width: 159px;
   height: 48px;
   border-radius: 4px;
   padding: 12px;
   margin-top: 29px;
-  margin-bottom: 58px ;
+  margin-bottom: 58px;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
   font-size: 17px;
-  color: #ffffff;
+  color: #fff;
 }
 
 /*
@@ -339,15 +333,13 @@ About me templates
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background: #EBF0EE;
-  border: 1px solid #C1C7D0;
+  background: #ebf0ee;
+  border: 1px solid #c1c7d0;
   border-radius: 8px;
   align-items: center;
   box-sizing: border-box;
   margin-bottom: 24px;
-  border-radius: 8px;
   width: 327px;
-  
 }
 
 .about-img {
@@ -356,7 +348,6 @@ About me templates
   margin-top: 40px;
   margin-bottom: 10px;
 }
-
 
 .hability {
   width: 337px;
@@ -377,7 +368,7 @@ About me templates
   justify-content: center;
   height: 120px;
   width: 327px;
-  align-content: flex-start; 
+  align-content: flex-start;
 }
 
 .details {
@@ -385,7 +376,7 @@ About me templates
   width: 89px;
   height: 40px;
   margin: 5px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 8px;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -425,8 +416,8 @@ Button interactions
   align-items: center;
   padding: 12px;
   width: 91px;
-  background: #36B37F;
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  background: #36b37f;
+  box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
 }
 
@@ -437,7 +428,7 @@ Button interactions
   padding: 12px;
   width: 91px;
   height: 48px;
-  background: #36B37F;
+  background: #36b37f;
   border-radius: 4px;
 }
 
@@ -447,8 +438,8 @@ Button interactions
   align-items: center;
   padding: 12px;
   width: 91px;
-  background: #36B37F;
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  background: #36b37f;
+  box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
 }
 
@@ -462,6 +453,3 @@ Button interactions
   background: #36b37f;
   border-radius: 4px;
 }
-  
-  
-  
