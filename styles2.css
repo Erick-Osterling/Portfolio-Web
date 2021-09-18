@@ -286,9 +286,7 @@ About me
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-image:
-      url("images/illustration 1- about me-mobile.png"),
-      url("images/illustration- about me- mobile.png");
+  background-image: url("images/illustration 1- about me-mobile.png"), url("images/illustration- about me- mobile.png");
   background-repeat: no-repeat, no-repeat;
   background-position: top right, bottom -10px left;
   margin-bottom: 59px;
