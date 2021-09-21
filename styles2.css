@@ -443,3 +443,33 @@ Button interactions
   background: #36b37f;
   border-radius: 4px;
 }
+
+/*
+About me and contact form
+*/
+.aboutme_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.formp {
+  width: 327px;
+  height: 363px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172B4D;
+  margin: 24px 0px;
+}
+
+.about_form {
+  display: flex;
+  flex-direction: column;
+}
+
+
