@@ -458,14 +458,14 @@ About me and contact form
   width: 327px;
   height: 363px;
   margin-top: 60px;
+  margin-bottom: 24px;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-  color: #172B4D;
-  margin: 24px 0px;
+  color: #172b4d;
 }
 
 .about_form {
@@ -480,7 +480,7 @@ About me and contact form
   height: 48px;
   border-radius: 4px;
   background: #fff;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -496,7 +496,7 @@ About me and contact form
   height: 48px;
   border-radius: 4px;
   background: #fff;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -543,7 +543,7 @@ About me and contact form
   font-size: 20px;
   line-height: 32px;
   text-align: center;
-  color: #42526E;
+  color: #42526e;
 }
 
 .final-line {
@@ -560,11 +560,5 @@ About me and contact form
   align-items: center;
   background-image: url(images/illustration-contact-form.png);
   background-repeat: no-repeat;
-  background-position: top 10px right ;
-}
-
-.submit_but:hover {
-  background: #36b37f;
-  box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
-  border-radius: 4px;
+  background-position: top 10px right;
 }
