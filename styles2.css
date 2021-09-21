@@ -471,6 +471,7 @@ About me and contact form
 .about_form {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .formname {
@@ -480,6 +481,13 @@ About me and contact form
   border-radius: 4px;
   background: #fff;
   border: 1px solid #D0D9D4;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #6b778c;
+  padding: 1px 15px;
 }
 
 .formemail {
@@ -489,6 +497,13 @@ About me and contact form
   border-radius: 4px;
   background: #fff;
   border: 1px solid #D0D9D4;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #6b778c;
+  padding: 1px 15px;
 }
 
 .textholder {
@@ -496,30 +511,55 @@ About me and contact form
   padding: 12px;
   width: 327px;
   height: 114px;
+  font-size: 15px;
   border-radius: 4px;
   background-color: #fff;
   border: 1px solid #60c095;
 }
 
-.submit {
+.submit_but {
   margin-top: 36px;
-  width: 105px;
-  height: 24px;
-  position: static;
-  width: 105px;
-  height: 24px;
-  left: 12px;
-  top: 12px;
-  font-family: Inter;
+  width: 129px;
+  height: 48px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 10px;
+  color: #fff;
+  background: #36b37f;
+  border-radius: 4px;
+}
+
+.emailend {
+  margin-top: 19px;
+  padding-bottom: 160px;
+  width: 375px;
+  height: 189px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526E;
+}
+
+.final-line {
+  width: 134px;
+  height: 5px;
+  background-color: black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.finalsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(images/illustration-contact-form.png);
+  background-repeat: no-repeat;
+  background-position: top 10px right ;
+  
 }
