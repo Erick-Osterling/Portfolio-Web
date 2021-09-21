@@ -457,6 +457,7 @@ About me and contact form
 .formp {
   width: 327px;
   height: 363px;
+  margin-top: 60px;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -472,4 +473,53 @@ About me and contact form
   flex-direction: column;
 }
 
+.formname {
+  margin-top: 58px;
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #D0D9D4;
+}
 
+.formemail {
+  margin-top: 24px;
+  width: 327px;
+  height: 48px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #D0D9D4;
+}
+
+.textholder {
+  margin-top: 24px;
+  padding: 12px;
+  width: 327px;
+  height: 114px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #60c095;
+}
+
+.submit {
+  margin-top: 36px;
+  width: 105px;
+  height: 24px;
+  position: static;
+  width: 105px;
+  height: 24px;
+  left: 12px;
+  top: 12px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
