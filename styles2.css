@@ -170,7 +170,6 @@ Template for works
   width: 327px;
   border-radius: 8px;
   background-color: #ebf0ee;
-  align-self: center;
   border: 1px solid #d0d9d4;
 }
 
@@ -249,7 +248,7 @@ Tags area
 Grid container with works templates
 */
 
-.grid-container {
+.grid-container1 {
   display: grid;
   grid-template-columns: auto;
   grid-gap: 12px;
@@ -351,6 +350,7 @@ About me templates
   align-items: center;
   box-sizing: border-box;
   margin-bottom: 24px;
+  height: 352px;
   width: 327px;
 }
 
@@ -375,7 +375,7 @@ About me templates
 
 .detail-container {
   display: flex;
-  margin: 20px 30px 1px 30px;
+  margin: 20px 30px 24px 30px;
   flex-wrap: wrap;
   justify-content: center;
   height: 120px;
@@ -405,6 +405,14 @@ About me templates
 /*
 Grid container with about me templates
 */
+
+.grid.container2 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 12px;
+  padding: 30px;
+  justify-content: center;
+}
 
 .about1 {
   grid-row: 1;
@@ -579,9 +587,7 @@ Hidden Desktop Material (will not ve visible in Mobile)
 
 .desk-header {
   display: none;
-  border: olive 2px solid;
-  
-
+ 
 }
 
 .desk-header a {
@@ -600,114 +606,151 @@ Hidden Desktop Material (will not ve visible in Mobile)
 @media only screen and (min-width: 992px) {
   
 
-/* header */
+  /* header */
 
 
-    .logo, .threelinemenu {
-      display: none;
-    }
+  .logo, .threelinemenu {
+    display: none;
+  }
 
-    .desk-header {
-      display: block;
-    }  
+  .desk-header {
+    display: block;
+  }  
 
-    .topbar {
-      justify-content: center;
-    }
+  .topbar {
+    justify-content: center;
+  }
 
-      /* background image front page*/
+  /* background image front page*/
 
-      .port-front {
-        background-image: none;
-        
-      }
+  .port-front {
+    background-image: none;
+    
+  }
 
-      .desk-background1 {
-        background-image: url(images/Header-llustration-desktop.png);
-        background-position: center;
-        background-size: 100%;
-        background-repeat: no-repeat;
-      }
+  .desk-background1 {
+    background-image: url(images/Header-llustration-desktop.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
 
      
-      .greeting {
-        border: purple 4px solid;
-        width: 920px;
-      }
+  .greeting {
+    border: purple 4px solid;
+    width: 920px;
+  }
 
-      .firstinfo, .secondinfo {
-        margin-left: 0px;
-        margin-right: 0px;
-        border: royalblue solid 2px;
-        width: 920px;
-      }
+  .firstinfo, .secondinfo {
+    margin-left: 0px;
+    margin-right: 0px;
+    border: royalblue solid 2px;
+    width: 920px;
+  }
 
-      .paragraph {
-        width: 770px;
-        border: purple 4px solid;
-        margin-top: 24px;
-        height: auto;
-      }
+  .paragraph {
+    width: 770px;
+    border: purple 4px solid;
+    margin-top: 24px;
+    height: auto;
+  }
 
-      .bottombar {
-        margin-top: 34px;
-        border: purple 4px solid;
-      }
-      .port-front {
-        height: 756px;
-        justify-content: flex-start;
-      }
+  .bottombar {
+    margin-top: 34px;
+    border: purple 4px solid;
+  }
+  .port-front {
+    height: 756px;
+    justify-content: flex-start;
+  }
         
-      .indicator {
-          display: none;
-      }
+  .indicator {
+      display: none;
+  }
 
-      /* Grid - works*/
+  /* Grid - works*/
 
-      .grid-container {
-        display: grid;
-        grid-template-columns: auto, auto, auto;
-       }
-      
-      .works-template {
-        height: 474px;
-        width: 369px;
-      }
+  .grid-container1 {
+    grid-template-columns: auto auto auto;
+    }
+  
+  .works-template {
+    height: 474px;
+    width: 369px;
+  }
 
-      .work-data {
-        width: 369px;
-        height: 222px;
-      }
+  .work-data {
+    width: 369px;
+    height: 222px;
+  }
 
-      .work1 {
-        grid-row: 1;
-        grid-column: 1;
-      }
+  .work1 {
+    grid-row: 1;
+    grid-column: 1;
+  }
       
-      .work2 {
-        grid-row: 1;
-        grid-column: 2;
-      }
-      
-      .work3 {
-        grid-row: 1;
-        grid-column: 3;
-      }
-      
-      .work4 {
-        grid-row: 2;
-        grid-column: 1;
-      }
-      
-      .work5 {
-        grid-row: 2;
-        grid-column: 2;
-      }
-      
-      .work6 {
-        grid-row: 2;
-        grid-column: 3;
-      }
+  .work2 {
+    grid-row: 1;
+    grid-column: 2;
+  }
+  
+  .work3 {
+    grid-row: 1;
+    grid-column: 3;
+  }
+  
+  .work4 {
+    grid-row: 2;
+    grid-column: 1;
+  }
+  
+  .work5 {
+    grid-row: 2;
+    grid-column: 2;
+  }
+  
+  .work6 {
+    grid-row: 2;
+    grid-column: 3;
+  }
+
+  /* About me*/
+
+  .aboutme-h2 {
+    width: 447px;
+  }
+
+  .aboutme-p {
+    width: 770px;
+    height: auto; 
+  }
+  /* Grid - about me*/
+  
+  .grid.container2 {
+    grid-template-columns: auto auto auto;
+    border: rgb(58, 35, 142) solid 3px;
+  }
+
+  .about-template {
+    height: 352px;
+    width: 369px;
+  }
+
+  .about1 {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  
+  .about2 {
+    grid-row: 1;
+    grid-column: 2;
+  }
+  
+  .about3 {
+    grid-row: 1;
+    grid-column: 3;
+  }
+
 }
 
  
