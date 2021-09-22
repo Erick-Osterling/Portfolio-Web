@@ -562,3 +562,9 @@ About me and contact form
   background-repeat: no-repeat;
   background-position: top 10px right;
 }
+
+.submit_but:hover {
+  background: #36b37f;
+  box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
+}
