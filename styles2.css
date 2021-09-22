@@ -12,6 +12,7 @@ body {
   align-items: center;
   height: 40px;
   margin-top: 5px;
+  border: solid 3px rebeccapurple;
 }
 
 .logo {
@@ -41,6 +42,7 @@ division between top bar and the rest
 .port-front {
   display: flex;
   flex-direction: column;
+  margin-top: 74px;
   background-position: center;
   background-size: 100%;
   height: calc(100vh - 40px);
@@ -48,6 +50,7 @@ division between top bar and the rest
   justify-content: space-between;
   background-image: url("images/Ilustration-mobile.png");
   background-repeat: no-repeat;
+  border: springgreen 4px solid;
 }
 
 .greeting {
@@ -55,7 +58,7 @@ division between top bar and the rest
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 50px;
+  border: red solid 3px;
 }
 
 .firstinfo,
@@ -117,6 +120,7 @@ Works area introduction
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: orangered 4px solid;
 }
 
 .deco-button {
@@ -568,3 +572,97 @@ About me and contact form
   box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
 }
+
+/*
+Hidden Desktop Material (will not ve visible in Mobile)
+*/
+
+.desk-header {
+  display: none;
+  border: olive 2px solid;
+  
+
+}
+
+.desk-header a {
+  text-decoration: none;
+  margin: 5px 10px;
+  color: #172b4d;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* Desktop media queries */
+
+@media only screen and (min-width: 992px) {
+  
+
+/* header */
+
+
+    .logo, .threelinemenu {
+      display: none;
+    }
+
+    .desk-header {
+      display: block;
+    }  
+
+    .topbar {
+      justify-content: center;
+    }
+
+      /* background image front page*/
+
+      .port-front {
+        background-image: none;
+        
+      }
+
+      .desk-background1 {
+        background-image: url(images/Header-llustration-desktop.png);
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+
+     
+      .greeting {
+        border: purple 4px solid;
+        width: 920px;
+      }
+
+      .firstinfo, .secondinfo {
+        margin-left: 0px;
+        margin-right: 0px;
+        border: royalblue solid 2px;
+        width: 920px;
+      }
+
+      .paragraph {
+        width: 770px;
+        border: purple 4px solid;
+        margin-top: 24px;
+        height: auto;
+      }
+
+      .bottombar {
+        margin-top: 34px;
+        border: purple 4px solid;
+      }
+      .port-front {
+        height: 756px;
+        justify-content: flex-start;
+      }
+        
+      .indicator {
+          display: none;
+      }
+}
+
+ 
+ 
+  
