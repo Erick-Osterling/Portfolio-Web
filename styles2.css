@@ -252,7 +252,7 @@ Grid container with works templates
 .grid-container {
   display: grid;
   grid-template-columns: auto;
-  grid-gap: 10px;
+  grid-gap: 12px;
   padding: 30px;
   justify-content: center;
 }
@@ -660,6 +660,53 @@ Hidden Desktop Material (will not ve visible in Mobile)
         
       .indicator {
           display: none;
+      }
+
+      /* Grid - works*/
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto, auto, auto;
+       }
+      
+      .works-template {
+        height: 474px;
+        width: 369px;
+      }
+
+      .work-data {
+        width: 369px;
+        height: 222px;
+      }
+
+      .work1 {
+        grid-row: 1;
+        grid-column: 1;
+      }
+      
+      .work2 {
+        grid-row: 1;
+        grid-column: 2;
+      }
+      
+      .work3 {
+        grid-row: 1;
+        grid-column: 3;
+      }
+      
+      .work4 {
+        grid-row: 2;
+        grid-column: 1;
+      }
+      
+      .work5 {
+        grid-row: 2;
+        grid-column: 2;
+      }
+      
+      .work6 {
+        grid-row: 2;
+        grid-column: 3;
       }
 }
 
