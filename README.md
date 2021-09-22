@@ -16,7 +16,16 @@ This is the mobile version. It is responsible with use of flex and one media que
 
 [Live Demo Link](https://erick-osterling.github.io/Portfolio-Web/)
 
-To get a local copy up and running follow these simple example steps.
+## Getting Started
+
+To get a local copy up and running clone the GitHub repository by typing:
+```
+$ git clone https://github.com/Erick-Osterling/Portfolio-Web
+```
+- After, run the following command in the terminal so you can see the web app in your local browser. You can use Live Server in Visual Studio Code.
+```
+$ npm start
+```
 
 ### Prerequisites: None
 
