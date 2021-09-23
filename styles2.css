@@ -244,7 +244,8 @@ Tags area
 Grid container with works templates
 */
 
-.grid-container1, .grid-container2 {
+.grid-container1, 
+.grid-container2 {
   display: grid;
   grid-template-columns: auto;
   grid-gap: 12px;
@@ -451,8 +452,7 @@ About me and contact form
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 60px
-
+  margin-top: 60px;
 }
 
 .formp {
@@ -517,7 +517,7 @@ About me and contact form
 .formpart1 {
   display: flex;
   flex-direction: column;
-  justify-content:flex-start;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -587,14 +587,13 @@ Hidden Desktop Material (will not ve visible in Mobile)
 
 .desk-header {
   display: none;
- 
 }
 
 .desk-header a {
   text-decoration: none;
   margin: 5px 10px;
   color: #172b4d;
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -608,30 +607,24 @@ Hidden Desktop Material (will not ve visible in Mobile)
 /* Desktop media queries */
 
 @media only screen and (min-width: 992px) {
-  
+
 
   /* header */
 
-
-  .logo, .threelinemenu {
+  .logo,
+  .threelinemenu {
     display: none;
   }
 
   .desk-header {
     display: block;
-  }  
+  }
 
   .topbar {
     justify-content: center;
   }
 
-  /* background image front page*/
-
-  .port-front {
-    background-image: none;
-    width: 1440px;
-
-  }
+  /* background image front page */
 
   .desk-background1 {
     background-image: url(images/Header-llustration-desktop.png);
@@ -639,15 +632,14 @@ Hidden Desktop Material (will not ve visible in Mobile)
     background-size: 100%;
     background-repeat: no-repeat;
   }
-
      
   .greeting {
     width: 920px;
   }
 
   .firstinfo, .secondinfo {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 1px;
+    margin-right: 1px;
     width: 920px;
   }
 
@@ -660,26 +652,30 @@ Hidden Desktop Material (will not ve visible in Mobile)
   .bottombar {
     margin-top: 34px;
   }
+
   .port-front {
     height: 756px;
     justify-content: flex-start;
-  }
-        
-  .indicator {
-      display: none;
+    background-image: none;
+    width: 1440px;
   }
 
-  /* Grid - works*/
+  .indicator {
+    display: none;
+  }
+
+  /* Grid - works */
 
   .intro-works {
     margin-top: 112px;
     margin-bottom: 52px;
   }
 
-  .grid-container1, .grid-container2 {
+  .grid-container1,
+  .grid-container2 {
     grid-template-columns: auto auto auto;
-    }
-  
+  }
+
   .works-template {
     height: 474px;
     width: 369px;
@@ -704,23 +700,23 @@ Hidden Desktop Material (will not ve visible in Mobile)
     grid-row: 1;
     grid-column: 3;
   }
-  
+
   .work4 {
     grid-row: 2;
     grid-column: 1;
   }
-  
+
   .work5 {
     grid-row: 2;
     grid-column: 2;
   }
-  
+
   .work6 {
     grid-row: 2;
     grid-column: 3;
   }
 
-  /* About me*/
+  /* About me */
 
   .aboutme-h2 {
     width: 447px;
@@ -728,10 +724,11 @@ Hidden Desktop Material (will not ve visible in Mobile)
 
   .aboutme-p {
     width: 770px;
-    height: auto; 
+    height: auto;
   }
-  /* Grid - about me*/
-  
+
+  /* Grid - about me */
+
   .about-template {
     height: 352px;
     width: 369px;
@@ -741,12 +738,12 @@ Hidden Desktop Material (will not ve visible in Mobile)
     grid-row: 1;
     grid-column: 1;
   }
-  
+
   .about2 {
     grid-row: 1;
     grid-column: 2;
   }
-  
+
   .about3 {
     grid-row: 1;
     grid-column: 3;
@@ -757,7 +754,6 @@ Hidden Desktop Material (will not ve visible in Mobile)
     margin-top: 192px;
     background-image: url("images/illustration-about-me-2-desktop-left.png"), url("images/illustration about me desktop right.png");
     background-position: bottom 36px left, top right;
-  
   }
 
   body {
@@ -791,14 +787,13 @@ Hidden Desktop Material (will not ve visible in Mobile)
     justify-content: space-between;
     align-items: flex-start;
   }
-  
+
   .formp {
     width: 463px;
     height: 256px;
     display: flex;
     margin-right: 24px;
     justify-content: flex-start;
-    align-items: flex-start;
     text-align: left;
     align-items: center;
     font-size: 30px;
@@ -814,18 +809,10 @@ Hidden Desktop Material (will not ve visible in Mobile)
     display: none;
   }
 
-.desktop-footer {
-  display: block;
-  display: flex;
-  flex-direction: column-reverse;
-}
-
-  .finalsection {
-    display: none;
-    align-items: flex-start;
-  }
-
-  .submit_but {
+  .desktop-footer {
+    display: block;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .formsub {
@@ -835,39 +822,32 @@ Hidden Desktop Material (will not ve visible in Mobile)
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-  }
-
-  .formsub {
-    margin-top: 0px;
+    margin-top: 1px;
   }
 
   .finalsection {
     flex-direction: column-reverse;
     justify-content: flex-end;
+    display: none;
+    align-items: flex-start;
   }
 
   .final-line {
-    margin-bottom: 0px;
+    margin-bottom: 1px;
     height: 1px;
     width: 1440px;
-    background: #Dfe1e6;
+    background: #dfe1e6;
   }
 
   .bottombar {
-    margin-top: 0px;
+    margin-top: 1px;
     display: flex;
     justify-content: center;
   }
 
-  .formname, .formemail, .textholder {
+  .formname, 
+  .formemail, 
+  .textholder {
     width: 660px;
   }
-
-
-
-
 }
-
- 
- 
-  
