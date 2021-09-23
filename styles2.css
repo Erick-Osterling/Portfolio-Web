@@ -238,6 +238,7 @@ Tags area
   font-weight: 500;
   font-size: 17px;
   color: #fff;
+  transition: width 2s, height 2s;
 }
 
 /*
@@ -426,9 +427,10 @@ Button interactions
 
 .btn-more-project:hover {
   padding: 12px;
-  background: #36b37f;
   box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
+  width: 152px;
+  height: 64px;
 }
 
 .btn-more-project:enabled {
