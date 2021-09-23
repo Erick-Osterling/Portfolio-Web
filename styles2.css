@@ -244,7 +244,12 @@ Tags area
 Grid container with works templates
 */
 
-.grid-container1,
+.grid-container1 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 12px;
+  justify-content: center;
+}
 
 .grid-container2 {
   display: grid;
@@ -637,8 +642,12 @@ Hidden Desktop Material (will not ve visible in Mobile)
     width: 920px;
   }
 
-  .firstinfo, 
-  
+  .firstinfo {
+    margin-left: 1px;
+    margin-right: 1px;
+    width: 920px;
+  }
+
   .secondinfo {
     margin-left: 1px;
     margin-right: 1px;
@@ -843,9 +852,13 @@ Hidden Desktop Material (will not ve visible in Mobile)
     justify-content: center;
   }
 
-  .formname,
+  .formname {
+    width: 660px;
+  }
 
-  .formemail,
+  .formemail {
+    width: 660px;
+  }
 
   .textholder {
     width: 660px;
