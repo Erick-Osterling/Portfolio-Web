@@ -4,6 +4,7 @@
 body {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .topbar {
@@ -12,7 +13,6 @@ body {
   align-items: center;
   height: 40px;
   margin-top: 5px;
-  border: solid 3px rebeccapurple;
 }
 
 .logo {
@@ -50,7 +50,6 @@ division between top bar and the rest
   justify-content: space-between;
   background-image: url("images/Ilustration-mobile.png");
   background-repeat: no-repeat;
-  border: springgreen 4px solid;
 }
 
 .greeting {
@@ -58,7 +57,6 @@ division between top bar and the rest
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border: red solid 3px;
 }
 
 .firstinfo,
@@ -120,7 +118,6 @@ Works area introduction
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: orangered 4px solid;
 }
 
 .deco-button {
@@ -248,7 +245,7 @@ Tags area
 Grid container with works templates
 */
 
-.grid-container1 {
+.grid-container1, .grid-container2 {
   display: grid;
   grid-template-columns: auto;
   grid-gap: 12px;
@@ -406,14 +403,6 @@ About me templates
 Grid container with about me templates
 */
 
-.grid.container2 {
-  display: grid;
-  grid-template-columns: auto;
-  grid-gap: 12px;
-  padding: 30px;
-  justify-content: center;
-}
-
 .about1 {
   grid-row: 1;
 }
@@ -464,17 +453,18 @@ About me and contact form
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  margin-top: 60px
+
 }
 
 .formp {
   width: 327px;
   height: 363px;
-  margin-top: 60px;
   margin-bottom: 24px;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 28px;
   line-height: 52px;
   text-align: center;
   color: #172b4d;
@@ -486,8 +476,13 @@ About me and contact form
   align-items: center;
 }
 
-.formname {
+.formsub {
   margin-top: 58px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formname {
   width: 327px;
   height: 48px;
   border-radius: 4px;
@@ -518,6 +513,14 @@ About me and contact form
   padding: 1px 15px;
 }
 
+.formpart1 {
+  display: flex;
+  border: springgreen solid 3px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .textholder {
   margin-top: 24px;
   padding: 12px;
@@ -530,7 +533,7 @@ About me and contact form
 }
 
 .submit_but {
-  margin-top: 36px;
+  margin-top: 24px;
   width: 129px;
   height: 48px;
   font-family: Inter, Arial, Helvetica, sans-serif;
@@ -601,6 +604,10 @@ Hidden Desktop Material (will not ve visible in Mobile)
   line-height: 16px;
 }
 
+.desktop-footer {
+  display: none;
+}
+
 /* Desktop media queries */
 
 @media only screen and (min-width: 992px) {
@@ -637,27 +644,23 @@ Hidden Desktop Material (will not ve visible in Mobile)
 
      
   .greeting {
-    border: purple 4px solid;
     width: 920px;
   }
 
   .firstinfo, .secondinfo {
     margin-left: 0px;
     margin-right: 0px;
-    border: royalblue solid 2px;
     width: 920px;
   }
 
   .paragraph {
     width: 770px;
-    border: purple 4px solid;
     margin-top: 24px;
     height: auto;
   }
 
   .bottombar {
     margin-top: 34px;
-    border: purple 4px solid;
   }
   .port-front {
     height: 756px;
@@ -670,7 +673,7 @@ Hidden Desktop Material (will not ve visible in Mobile)
 
   /* Grid - works*/
 
-  .grid-container1 {
+  .grid-container1, .grid-container2 {
     grid-template-columns: auto auto auto;
     }
   
@@ -726,11 +729,6 @@ Hidden Desktop Material (will not ve visible in Mobile)
   }
   /* Grid - about me*/
   
-  .grid.container2 {
-    grid-template-columns: auto auto auto;
-    border: rgb(58, 35, 142) solid 3px;
-  }
-
   .about-template {
     height: 352px;
     width: 369px;
@@ -750,6 +748,101 @@ Hidden Desktop Material (will not ve visible in Mobile)
     grid-row: 1;
     grid-column: 3;
   }
+
+  .aboutme-container {
+    background-image: url(images/illustration-about-me-2-desktop.png), url(images/illustration about me desktop.png);
+    background-repeat: no-repeat, no-repeat;
+    width: 1440px;
+  }
+
+  body {
+    max-width: 1440px;
+    margin: auto;
+    align-self: center;
+  }
+
+  .aboutme_form {
+    flex-direction: row;
+    width: 1171px;
+    height: 490px;
+    justify-content: center;
+    align-items: flex-start;
+    
+  }
+
+  .formpart1 {
+    width: 684px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .formp {
+    width: 463px;
+    height: 256px;
+    display: flex;
+    margin-right: 24px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    align-items: center;
+  }
+
+  .about_form {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .emailend {
+    display: none;
+  }
+
+.desktop-footer {
+  display: block;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+  .finalsection {
+    display: none;
+    align-items: flex-start;
+  }
+
+  .submit_but {
+  }
+
+  .formsub {
+    width: 463px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .formsub {
+    margin-top: 0px;
+  }
+
+  .finalsection {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+
+  .final-line {
+    margin-bottom: 0px;
+    height: 1px;
+    width: 1440px;
+  }
+
+  .bottombar {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+
 
 }
 
