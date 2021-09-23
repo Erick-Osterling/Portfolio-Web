@@ -244,7 +244,8 @@ Tags area
 Grid container with works templates
 */
 
-.grid-container1, 
+.grid-container1,
+
 .grid-container2 {
   display: grid;
   grid-template-columns: auto;
@@ -608,7 +609,6 @@ Hidden Desktop Material (will not ve visible in Mobile)
 
 @media only screen and (min-width: 992px) {
 
-
   /* header */
 
   .logo,
@@ -632,12 +632,14 @@ Hidden Desktop Material (will not ve visible in Mobile)
     background-size: 100%;
     background-repeat: no-repeat;
   }
-     
+
   .greeting {
     width: 920px;
   }
 
-  .firstinfo, .secondinfo {
+  .firstinfo, 
+  
+  .secondinfo {
     margin-left: 1px;
     margin-right: 1px;
     width: 920px;
@@ -647,10 +649,6 @@ Hidden Desktop Material (will not ve visible in Mobile)
     width: 770px;
     margin-top: 24px;
     height: auto;
-  }
-
-  .bottombar {
-    margin-top: 34px;
   }
 
   .port-front {
@@ -690,12 +688,12 @@ Hidden Desktop Material (will not ve visible in Mobile)
     grid-row: 1;
     grid-column: 1;
   }
-      
+
   .work2 {
     grid-row: 1;
     grid-column: 2;
   }
-  
+
   .work3 {
     grid-row: 1;
     grid-column: 3;
@@ -845,8 +843,10 @@ Hidden Desktop Material (will not ve visible in Mobile)
     justify-content: center;
   }
 
-  .formname, 
-  .formemail, 
+  .formname,
+
+  .formemail,
+
   .textholder {
     width: 660px;
   }
