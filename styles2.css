@@ -238,7 +238,7 @@ Tags area
   font-weight: 500;
   font-size: 17px;
   color: #fff;
-  transition: width 2s, height 2s, background-color 2s ;
+  transition: width 2s, height 2s, background-color 2s;
 }
 
 /*
@@ -338,8 +338,7 @@ About me
   line-height: 24px;
   font-size: 17px;
   color: #fff;
-  transition: width 2s; 
-  
+  transition: width 2s;
 }
 
 /*
