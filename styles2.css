@@ -238,7 +238,7 @@ Tags area
   font-weight: 500;
   font-size: 17px;
   color: #fff;
-  transition: width 2s, height 2s, background-color 2s;
+  transition: width 2s, background-color 2s;
 }
 
 /*
@@ -338,7 +338,7 @@ About me
   line-height: 24px;
   font-size: 17px;
   color: #fff;
-  transition: width 2s;
+  transition: width 2s, background-color 2s;
 }
 
 /*
@@ -430,28 +430,17 @@ Button interactions
   padding: 12px;
   box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
-  width: 152px;
-  height: 64px;
-}
-
-.btn-more-project:enabled {
-  padding: 12px;
-  background: #36b37f;
-  border-radius: 4px;
+  width: 183px;
+  background-color: rgb(76, 76, 211);
 }
 
 .aboutme-button:hover {
   padding: 12px;
-  width: 200px;
+  width: 238.5px;
   box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
-  background-color: blue;
+  background-color: rgb(76, 76, 211);
   transition: 0.5s;
-}
-
-.aboutme-button:enabled {
-  padding: 12px;
-  border-radius: 4px;
 }
 
 /*
@@ -555,7 +544,7 @@ About me and contact form
   color: #fff;
   background: #36b37f;
   border-radius: 4px;
-  transition: width 2s;
+  transition: width 2s, background-color 2s;
 }
 
 .emailend {
@@ -591,6 +580,7 @@ About me and contact form
   box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
   width: 200px;
+  background-color: rgb(76, 76, 211);
 }
 
 /*
@@ -695,7 +685,6 @@ Hidden Desktop Material (will not ve visible in Mobile)
 
   .work-data {
     width: 369px;
-    height: 222px;
   }
 
   .work1 {
