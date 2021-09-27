@@ -4,7 +4,7 @@
 
 > This is the first two sections of what will be Erick's Portafolio for mobile version. 
 
-![screenshot](images/Port_screenshot.png)
+![screenshot](images/Screenshot-2.png)
 
 This is the mobile version. It is responsible with use of flex and one media query for the background image.
 

@@ -34,10 +34,6 @@ nav:hover {
   height: 34px;
 }
 
-/*
-division between top bar and the rest
-*/
-
 .port-front {
   display: flex;
   flex-direction: column;
@@ -88,9 +84,6 @@ division between top bar and the rest
   height: 164px;
 }
 
-/*
-footer style (links to social media)
-*/
 
 .bottombar {
   display: flex;
@@ -108,10 +101,6 @@ footer style (links to social media)
 a :hover {
   border: solid 4px rgb(97, 102, 97);
 }
-
-/*
-Works area introduction
-*/
 
 .intro-works {
   display: flex;
@@ -154,10 +143,6 @@ Works area introduction
   background: #36b37e;
 }
 
-/*
-Template for works
-*/
-
 .works-template {
   display: flex;
   flex-direction: column;
@@ -193,10 +178,6 @@ Template for works
   text-align: center;
   margin-top: 24px;
 }
-
-/*
-Tags area
-*/
 
 .tag-holder {
   display: flex;
@@ -241,10 +222,6 @@ Tags area
   transition: width 2s, background-color 2s;
 }
 
-/*
-Grid container with works templates
-*/
-
 .grid-container1 {
   display: grid;
   grid-template-columns: auto;
@@ -282,10 +259,6 @@ Grid container with works templates
 .work6 {
   grid-row: 6;
 }
-
-/*
-About me
-*/
 
 .aboutme-container {
   display: flex;
@@ -340,10 +313,6 @@ About me
   color: #fff;
   transition: width 2s, background-color 2s;
 }
-
-/*
-About me templates
-*/
 
 .about-template {
   display: flex;
@@ -406,10 +375,6 @@ About me templates
   padding: 2px 1px;
 }
 
-/*
-Grid container with about me templates
-*/
-
 .about1 {
   grid-row: 1;
 }
@@ -421,10 +386,6 @@ Grid container with about me templates
 .about3 {
   grid-row: 3;
 }
-
-/*
-Button interactions
-*/
 
 .btn-more-project:hover {
   padding: 12px;
@@ -443,9 +404,6 @@ Button interactions
   transition: 0.5s;
 }
 
-/*
-About me and contact form
-*/
 .aboutme_form {
   display: flex;
   flex-direction: column;
@@ -583,10 +541,6 @@ About me and contact form
   background-color: rgb(76, 76, 211);
 }
 
-/*
-Hidden Desktop Material (will not ve visible in Mobile)
-*/
-
 .desk-header {
   display: none;
 }
@@ -606,10 +560,7 @@ Hidden Desktop Material (will not ve visible in Mobile)
   display: none;
 }
 
-/* Desktop media queries */
-
 @media only screen and (min-width: 992px) {
-  /* header */
 
   .logo,
   .threelinemenu {
@@ -623,8 +574,6 @@ Hidden Desktop Material (will not ve visible in Mobile)
   .topbar {
     justify-content: center;
   }
-
-  /* background image front page */
 
   .desk-background1 {
     background-image: url(images/Header-llustration-desktop.png);
@@ -665,8 +614,6 @@ Hidden Desktop Material (will not ve visible in Mobile)
   .indicator {
     display: none;
   }
-
-  /* Grid - works */
 
   .intro-works {
     margin-top: 112px;
@@ -717,8 +664,6 @@ Hidden Desktop Material (will not ve visible in Mobile)
     grid-column: 3;
   }
 
-  /* About me */
-
   .aboutme-h2 {
     width: 447px;
   }
@@ -727,8 +672,6 @@ Hidden Desktop Material (will not ve visible in Mobile)
     width: 770px;
     height: auto;
   }
-
-  /* Grid - about me */
 
   .about-template {
     height: 352px;
