@@ -146,8 +146,8 @@ a :hover {
 .works-template {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  height: 474px;
+  justify-content: flex-start;
+  height: 974px;
   width: 327px;
   border-radius: 8px;
   background-color: #ebf0ee;
@@ -159,11 +159,12 @@ a :hover {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 327px;
+  width: 627px;
   height: 222px;
   border-radius: 8px;
   background-color: #fff;
   align-self: center;
+  border: solid red 4px;
 }
 
 .work-title {
@@ -180,13 +181,13 @@ a :hover {
 }
 
 .tag-holder {
-  display: flex;
   justify-content: center;
   align-items: center;
   width: 305px;
   height: 32px;
   align-content: center;
   margin-top: 16px;
+  border: purple solid 4px;
 }
 
 .tags {
@@ -206,10 +207,22 @@ a :hover {
   color: #3a4a42;
 }
 
+.tag1 {
+  display: ;
+  float: left;
+  border: solid pink 4px;
+}
+
+.tag2 {
+  display: ;
+  float: right;
+  border: solid rgb(53, 29, 110) 4px;
+}
+
 .btn-more-project {
   background-color: #36b37f;
   width: 122px;
-  height: 48px;
+  height: 228px;
   border-radius: 4px;
   padding: 12px;
   margin-top: 29px;
@@ -311,7 +324,7 @@ a :hover {
   line-height: 24px;
   font-size: 17px;
   color: #fff;
-  transition: width 2s, background-color 2s;
+  transition: width 2s, background-color 2s, height 2s;
 }
 
 .about-template {
@@ -398,10 +411,10 @@ a :hover {
 .aboutme-button:hover {
   padding: 12px;
   width: 238.5px;
+  height: 72px;
   box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
   background-color: rgb(76, 76, 211);
-  transition: 0.5s;
 }
 
 .aboutme_form {
@@ -424,36 +437,7 @@ a :hover {
   color: #172b4d;
 }
 
-.about_form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  background-image: url(images/illustration-contact-form.png);
-  background-repeat: no-repeat;
-  background-position: bottom 420px right;
-}
 
-.formsub {
-  margin-top: 58px;
-  display: flex;
-  flex-direction: column;
-}
-
-.formname {
-  width: 327px;
-  height: 48px;
-  border-radius: 4px;
-  background: #fff;
-  border: 1px solid #d0d9d4;
-  font-family: Inter, Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 24px;
-  color: #6b778c;
-  padding: 1px 15px;
-}
 
 .formemail {
   margin-top: 24px;
@@ -471,39 +455,7 @@ a :hover {
   padding: 1px 15px;
 }
 
-.formpart1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
 
-.textholder {
-  margin-top: 24px;
-  padding: 12px;
-  width: 327px;
-  height: 114px;
-  font-size: 15px;
-  border-radius: 4px;
-  background-color: #fff;
-  border: 1px solid #60c095;
-}
-
-.submit_but {
-  margin-top: 24px;
-  width: 129px;
-  height: 48px;
-  font-family: Inter, Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #fff;
-  background: #36b37f;
-  border-radius: 4px;
-  transition: width 2s, background-color 2s;
-}
 
 .emailend {
   margin-top: 19px;
@@ -533,13 +485,6 @@ a :hover {
   align-items: center;
 }
 
-.submit_but:hover {
-  background: #36b37f;
-  box-shadow: 1px 8px 16px rgba(54, 179, 127, 0.24);
-  border-radius: 4px;
-  width: 200px;
-  background-color: rgb(76, 76, 211);
-}
 
 .desk-header {
   display: none;
@@ -724,13 +669,7 @@ a :hover {
     justify-content: center;
   }
 
-  .formpart1 {
-    width: 684px;
-    height: 330px;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
+
 
   .formp {
     width: 463px;
@@ -743,11 +682,7 @@ a :hover {
     font-size: 30px;
   }
 
-  .about_form {
-    justify-content: flex-start;
-    align-items: flex-start;
-    background-image: none;
-  }
+
 
   .emailend {
     display: none;
@@ -759,15 +694,7 @@ a :hover {
     flex-direction: column-reverse;
   }
 
-  .formsub {
-    width: 463px;
-    height: 256px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 1px;
-  }
+ 
 
   .finalsection {
     flex-direction: column-reverse;
@@ -789,15 +716,10 @@ a :hover {
     justify-content: center;
   }
 
-  .formname {
-    width: 660px;
-  }
 
   .formemail {
     width: 660px;
   }
 
-  .textholder {
-    width: 660px;
-  }
+ 
 }
